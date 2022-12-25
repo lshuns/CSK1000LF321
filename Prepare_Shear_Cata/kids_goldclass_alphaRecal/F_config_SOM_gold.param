@@ -1,0 +1,42 @@
+#
+# SOM gold selection parameters for LF 321 cata with alphaRecal
+#
+
+# Rscript binary
+P_RSCRIPT=`which Rscript`
+# LDAC tools folder
+DIR_LDAC="/disks/dust2/kuijken/SW/theli/theli-1.9.0/bin/Linux_64"
+# LDAC Commands Suffix
+THELI=""  # leave empty for non-THELI LDAC installation
+# Maximum number of simultaneous runs
+MAXTHREADS=20
+
+# working space
+ROOTDIR="/disks/shear10/ssli/K1000CS"
+INPUTDIR="LF321_Inputs/"
+OUTPUTDIR="LF321_Inputs/"
+
+# Fiducial Spec Catalogue
+SPECCAT_ALL="KiDS_specz_PAUS_COSMOS2015.csv"
+# Fiducial Phot Catalogue (with "ALLPATCH" Designation)
+FILEBODY="V1.0.0A_ugriZYJHKs_photoz_SG_mask_LF_glab_321_v2_A1"
+PHOTCAT_ALL="K1000_NS_${FILEBODY}.cat"
+# Blind Designations
+BLINDS="NONE"  # use "NONE" if there is no blinding in the lensfit weights
+
+# Goldsets to analyse. Define new gold sets in `construct_dr4_goldclasses.R`
+GOLDLIST="Fid"
+
+# SOM Filename
+SOMFILE="Spec_Train_Adapt_DIR_SOMdata.Rdata"
+# Tomographic bin clusters (spec training)
+TOMO_CLUST_SPEC_TRAIN="4000 2200 2800 4200 2000 2000"
+# Tomographic bin limits
+TOMO_LIMS="0.1 0.3 0.5 0.7 0.9 1.2"
+# redshift label in $SPECCAT_ALL
+ZLABEL="Zbest"
+# name of the lens galaxy weights
+WEIGHTNAME="AlphaRecalC_weight"
+# Multinest configuration: sampling live points and tolerance
+NLIVE=1000      # 200
+TOLERANCE=0.01  # 0.1
