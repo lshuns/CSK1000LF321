@@ -29,14 +29,7 @@ GOLDLIST="Fid"
 
 # SOM Filename
 SOMFILE="Spec_Train_Adapt_DIR_SOMdata.Rdata"
-# Tomographic bin clusters (spec training)
-TOMO_CLUST_SPEC_TRAIN="4000 2200 2800 4200 2000 2000"
-# Tomographic bin limits
-TOMO_LIMS="0.1 0.3 0.5 0.7 0.9 1.2"
 # redshift label in $SPECCAT_ALL
 ZLABEL="Zbest"
 # name of the lens galaxy weights
 WEIGHTNAME="AlphaRecalC_weight"
-# Multinest configuration: sampling live points and tolerance
-NLIVE=1000      # 200
-TOLERANCE=0.01  # 0.1
