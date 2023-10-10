@@ -4,6 +4,7 @@ __pycache__/
 *.o
 *.so
 *.a
+*.log
 
 test_*
 hack_*
@@ -27,5 +28,7 @@ plots/
 diagnostic/
 .ipynb_checkpoints/
 outputs/
+
+my_kcap/
 
 .DS_Store
