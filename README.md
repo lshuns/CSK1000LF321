@@ -8,14 +8,14 @@ The repository documents the analysis code used in the publication:
 
 It contains six parts:
 
-- [A_Prepare_Shear_Cata](https://github.com/lshuns/CSK1000LF321/A_Prepare_Shear_Cata) for preparing shear and redshift catalogues from both KiDS data and SKiLLS simulations.
+- [A_Prepare_Shear_Cata](https://github.com/lshuns/CSK1000LF321/tree/main/A_Prepare_Shear_Cata) for preparing shear and redshift catalogues from both KiDS data and SKiLLS simulations.
 
-- [B_Shear_Bias](https://github.com/lshuns/CSK1000LF321/B_Shear_Bias) for calculating the mean shear biases for each tomographic bin.
+- [B_Shear_Bias](https://github.com/lshuns/CSK1000LF321/tree/main/B_Shear_Bias) for calculating the mean shear biases for each tomographic bin.
 
-- [C_Calc_2pt_Stats_Leiden](https://github.com/lshuns/CSK1000LF321/C_Calc_2pt_Stats_Leiden) for estimating the two-point shear correlation functions.
+- [C_Calc_2pt_Stats_Leiden](https://github.com/lshuns/CSK1000LF321/tree/main/C_Calc_2pt_Stats_Leiden) for estimating the two-point shear correlation functions.
 
-- [D_Covariance](https://github.com/lshuns/CSK1000LF321/D_Covariance) for computing the covariance matrix.
+- [D_Covariance](https://github.com/lshuns/CSK1000LF321/tree/main/D_Covariance) for computing the covariance matrix.
 
-- [E_Cosmology](https://github.com/lshuns/CSK1000LF321/E_Cosmology) for performing cosmological inference.
+- [E_Cosmology](https://github.com/lshuns/CSK1000LF321/tree/main/E_Cosmology) for performing cosmological inference.
 
-- [paper_plot](https://github.com/lshuns/CSK1000LF321/paper_plot) for making the paper plots.
+- [paper_plot](https://github.com/lshuns/CSK1000LF321/tree/main/paper_plot) for making the paper plots.
