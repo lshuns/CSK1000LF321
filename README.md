@@ -1,4 +1,4 @@
-# CSK1000LF321
+# KiDS-1000-v2
 
 Cosmic shear analysis with updated shear measurement and calibration achieved using an updated version of the *lens*fit code and SKiLLS multi-band image simulations.
 
